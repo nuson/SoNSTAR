@@ -10,5 +10,5 @@ Full details of the array constructed by SoNSTAR's Feature Extractor for `flow` 
 
 |Description  | File                                                   |
 |:------------|:-------------------------------------------------------|
-|Features     | [Flow_IPFlow_Features.pdf](Flow_IPFlow_Features.pdf)   |
+|IP and IP-flow features     | [Flow_IPFlow_Features.pdf](Flow_IPFlow_Features.pdf)   |
 
