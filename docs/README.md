@@ -2,7 +2,7 @@
 March 2017
 Mohamed Debashi and Paul Vickers
 
-This is the web site for the nuson--SoNSTAR project. The full repository (including the contents of this site) is available at [https://github.com/nuson/SoNSTAR](https://github.com/nuson/SoNSTAR).
+This is the web site for the nuson--SoNSTAR project.
 
 ## Supplemental information for 'Sonification of Network Traffic Flow for Monitoring and Situational Awareness'
 
