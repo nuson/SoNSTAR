@@ -52,6 +52,8 @@ computer screen.
 │   ├── [ 22M]  S7-Audio.aif
 │   └── [ 21M]  S8-Audio.aif
 └── [  68]  src - Python and Max/MSP source for SoNSTAR
+    ├── SoNSTAR_Source_Code.py
+    └── SoNSTAR_Project_prime.maxpat
 ```
 
 | Audio File | Description |
@@ -65,11 +67,23 @@ computer screen.
 |[`examples/S7-Audio.aif`](examples/S7-Audio.aif) | **Ping behaviour:**  SoNSTAR SYN-Flood-DoS audio file. Sounds of SYN flood attack behaviour for denial of service; performed using `hping3`. |
 |[`examples/S8-Audio.aif`](examples/S8-Audio.aif) | **Ping behaviour:**  SoNSTAR Null-DDoS audio file. DDoS (distributed denial of service) using null packet types; performed using `hping3`. |
 
-## Installing SoNSTAR
-Instructions for how to install it go here. List any dependencies that need to be installed first.
+| Src File | Description |
+| ------------- | --------------- |
+| 1 [`src/SoNSTAR_Source_Code.py`](src/SoNSTAR_Source_Code.py) | SoNSTAR Python source code |
+| 2 [`src/SoNSTAR_Project_prime.maxpat`](src/SoNSTAR_Project_prime.maxpat) | SoNSTAR Max/MSP patcher |
 
-## Running SoNSTAR
-Instructions on how to get it going.
+
+
+## Installing and Running SoNSTAR
+1. The original SoNSTAR source can be found in the folder [`src/SoNSTAR_Source_Code.py`](src/SoNSTAR_Source_Code.py). The requirements for running SoNSTAR are:
+    1. A working Python 2.7.x installation (e.g. [Python 2.7.14](https://www.python.org/downloads/release/python-2714/))
+	1. Next, the `pcapy` (Python pcap extension) library must be installed. `pcapy` enables software Python scripts to access the routines from the pcap packet capture library. `pcapy` and can be installed from  [https://pypi.python.org/pypi/pcapy/0.11.1/](https://pypi.python.org/pypi/pcapy/0.11.1/). 
+2. SoNSTAR is then run from the command line, or you can use any available application to run Python files such as PyCharm which can be obtained from [Community PyCharm](https://www.jetbrains.com/pycharm/download/).
+
+2. The SoNSTAR Max/MSP Patcher can be found in the folder [`src/SoNSTAR_Project_prime.maxpat`](src/SoNSTAR_Project_prime.maxpat). Running the patcher requires Max/MSP 7 to be installed. You can use the unregistered version for free (though if you want to edit the patcher you will need a Max/MSP). See [Max 7.3.4](https://cycling74.com/downloads).
+
+3. Start first by runing the Max/MSP patcher and upload all the raw sounds that SoNSTAR uses to the patcher and turn the speakers on/plug in your headphones. Then run the Python file.
+
 
 ## Authors  
 * [**Mohamed Debashi**](https://)
