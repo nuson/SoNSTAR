@@ -51,9 +51,10 @@ computer screen.
 │   ├── [ 14M]  S6-Audio.aif
 │   ├── [ 22M]  S7-Audio.aif
 │   └── [ 21M]  S8-Audio.aif
-└── [  68]  src - Python and Max/MSP source for SoNSTAR
-    ├── SoNSTAR_Source_Code.py
-    └── SoNSTAR_Project_prime.maxpat
+├── [  68]  src - Python and Max/MSP source for SoNSTAR
+│   ├── SoNSTAR_Source_Code.py
+│   └── SoNSTAR_Project_prime.maxpat
+└── [  69] raw_sounds - natural and various Audio files for Max/MSP.
 ```
 
 | Audio File | Description |
@@ -74,16 +75,20 @@ computer screen.
 
 
 
-## Installing and Running SoNSTAR
+## Installing SoNSTAR
 1. The original SoNSTAR source can be found in the folder [`src/SoNSTAR_Source_Code.py`](src/SoNSTAR_Source_Code.py). The requirements for running SoNSTAR are:
     1. A working Python 2.7.x installation (e.g. [Python 2.7.14](https://www.python.org/downloads/release/python-2714/))
 	1. Next, the `pcapy` (Python pcap extension) library must be installed. `pcapy` enables software Python scripts to access the routines from the pcap packet capture library. `pcapy` and can be installed from  [https://pypi.python.org/pypi/pcapy/0.11.1/](https://pypi.python.org/pypi/pcapy/0.11.1/). 
 2. SoNSTAR is then run from the command line, or you can use any available application to run Python files such as PyCharm which can be obtained from [Community PyCharm](https://www.jetbrains.com/pycharm/download/).
 
-2. The SoNSTAR Max/MSP Patcher can be found in the folder [`src/SoNSTAR_Project_prime.maxpat`](src/SoNSTAR_Project_prime.maxpat). Running the patcher requires Max/MSP 7 to be installed. You can use the unregistered version for free (though if you want to edit the patcher you will need a Max/MSP). See [Max 7.3.4](https://cycling74.com/downloads).
+3. The SoNSTAR Max/MSP Patcher can be found in the folder [`src/SoNSTAR_Project_prime.maxpat`](src/SoNSTAR_Project_prime.maxpat). Running the patcher requires Max/MSP 7 to be installed. You can use the unregistered version for free (though if you want to edit the patcher you will need a Max/MSP). See [Max 7.3.4](https://cycling74.com/downloads).
 
-3. Start first by runing the Max/MSP patcher and upload all the raw sounds that SoNSTAR uses to the patcher and turn the speakers on/plug in your headphones. Then run the Python file.
 
+## Running SoNSTAR
+
+1. Start first by runing the Max/MSP patcher and upload all the raw sounds that SoNSTAR uses to the patcher into the buffers named for each a speceific sound and turn the speakers on/plug in your headphones. Raw-sounds can be found in the folder `raw-sounds`. Note: there are more sounds in the raw-sounds folder than the once would be used. The extra sounds or any new sounds can be used by the users to change the sound design as they wish.
+
+2. Run SoNSTAR python file and first will receive a message on the screen ask you "Enter MAX patcher host IP" in order to send trigger messages to the MAX patcher. After you type the host IP and press enter a new message will appear and ask you to "Enter the first 6 digits of your network IPs". After you type the 6 digits from the left side of the IP address of the local network, you have to press enter key again; a new message will appear to ask you "Enter the time window period". You have to type a time window in seconds (For example, 10 or 20 or 30). Then the system will provide a list of the available devices that you could sniff from. You need to choose the one which you intend to sniff from and type its name and press enter key again. Then the system will start sniffing and sounds would start generating.
 
 ## Authors  
 * [**Mohamed Debashi**](https://)
