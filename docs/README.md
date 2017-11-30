@@ -1,8 +1,8 @@
-# SoNSTAR Documentation
+# nuson-SoNSTAR Documentation
 November 2017
+
 Mohamed Debashi and Paul Vickers
 
-This is the web site for the nuson--SoNSTAR project.
 
 ## Supplemental information for 'Sonification of Network Traffic Flow for Monitoring and Situational Awareness'
 
