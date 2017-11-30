@@ -56,14 +56,14 @@ computer screen.
 
 | Audio File | Description |
 | ------------- | --------------- |
-| 1 [`examples/S1-Audio.aif`](examples/S1-Audio.aif) | *Normal traffic behaviour*:  SoNSTAR normal events sounds.|
-| 2 [`examples/S2-Audio.aif`](examples/S2-Audio.aif) | *FIN behaviour:*  SoNSTAR FIN scan audio file. The scan was performed using `hping3`. |
-| 3 [`examples/S3-Audio.aif`](examples/S3-Audio.aif) | *Xmas behaviour:*  SoNSTAR heavy Xmas scan audio file. The scan was performed using `Nmap`. |
-| 4 [`examples/S4-Audio.aif`](examples/S4-Audio.aif)| *NULL behaviour:*  SoNSTAR low NULL scan audio file. The scan was performed using `hping3`.|
-| 5 [`examples/S5-Audio.aif`](examples/S5-Audio.aif) | *NULL behaviour:*  SoNSTAR heavy NULL scan audio file. The scan was performed using `hping3`. |
-| 6 [`examples/S6-Audio.aif`](examples/S6-Audio.aif) | *SYN behaviour:**  SoNSTAR heavy full connection SYN scan audio file. The scan was performed using `Nmap`. |
-| 7 [`examples/S7-Audio.aif`](examples/S7-Audio.aif) | *Ping behaviour:*}  SoNSTAR SYN-Flood-DoS audio file. Sounds of SYN flood attack behaviour for denial of service; performed using `hping3`. |
-| 8 [`examples/S8-Audio.aif`](examples/S8-Audio.aif) | *Ping behaviour:*}  SoNSTAR Null-DDoS audio file. DDoS (distributed denial of service) using null packet types; performed using `hping3`. |
+| 1 [`examples/S1-Audio.aif`](examples/S1-Audio.aif) | _Normal traffic behaviour:_  SoNSTAR normal events sounds.|
+| 2 [`examples/S2-Audio.aif`](examples/S2-Audio.aif) | _FIN behaviour:_  SoNSTAR FIN scan audio file. The scan was performed using `hping3`. |
+| 3 [`examples/S3-Audio.aif`](examples/S3-Audio.aif) | _Xmas behaviour:_  SoNSTAR heavy Xmas scan audio file. The scan was performed using `Nmap`. |
+| 4 [`examples/S4-Audio.aif`](examples/S4-Audio.aif)| _NULL behaviour:_  SoNSTAR low NULL scan audio file. The scan was performed using `hping3`.|
+| 5 [`examples/S5-Audio.aif`](examples/S5-Audio.aif) | _NULL behaviour:_  SoNSTAR heavy NULL scan audio file. The scan was performed using `hping3`. |
+| 6 [`examples/S6-Audio.aif`](examples/S6-Audio.aif) | _SYN behaviour:_  SoNSTAR heavy full connection SYN scan audio file. The scan was performed using `Nmap`. |
+| 7 [`examples/S7-Audio.aif`](examples/S7-Audio.aif) | _Ping behaviour:_  SoNSTAR SYN-Flood-DoS audio file. Sounds of SYN flood attack behaviour for denial of service; performed using `hping3`. |
+| 8 [`examples/S8-Audio.aif`](examples/S8-Audio.aif) | _Ping behaviour:_  SoNSTAR Null-DDoS audio file. DDoS (distributed denial of service) using null packet types; performed using `hping3`. |
 
 ## Installing SoNSTAR
 Instructions for how to install it go here. List any dependencies that need to be installed first.
