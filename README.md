@@ -69,8 +69,8 @@ computer screen.
 
 | Src File | Description |
 | ------------- | --------------- |
-| 1 [`src/SoNSTAR_Source_Code.py`](src/SoNSTAR_Source_Code.py) | SoNSTAR Python source code |
-| 2 [`src/SoNSTAR_Project_prime.maxpat`](src/SoNSTAR_Project_prime.maxpat) | SoNSTAR Max/MSP patcher |
+| [`src/SoNSTAR_Source_Code.py`](src/SoNSTAR_Source_Code.py) | SoNSTAR Python source code |
+| [`src/SoNSTAR_Project_prime.maxpat`](src/SoNSTAR_Project_prime.maxpat) | SoNSTAR Max/MSP patcher |
 
 
 
