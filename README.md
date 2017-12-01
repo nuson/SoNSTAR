@@ -33,16 +33,17 @@ computer screen.
 ## Contents of the repository
 ```
 . [root]
-├── [  67]  README.md
+├── [7.3K]  README.md
 ├── [ 340]  docs
-│   ├── [ 888]  README.md
+│   ├── [ 842]  README.md
 │   ├── [ 44K]  S1_Appendix.pdf
 │   ├── [110K]  S2_Appendix.pdf
 │   ├── [ 14K]  S3_Appendix.txt
 │   ├── [186K]  S4_Appendix.txt
 │   ├── [ 36K]  S5_Appendix.pdf
 │   └── [  25]  _config.yml
-├── [ 340]  examples - sonifications of the network
+├── [ 374]  examples - examples - sonifications of the network
+│   ├── [1.2K]  README.md
 │   ├── [ 10M]  S1-Audio.aif
 │   ├── [ 17M]  S2-Audio.aif
 │   ├── [ 17M]  S3-Audio.aif
@@ -51,10 +52,67 @@ computer screen.
 │   ├── [ 14M]  S6-Audio.aif
 │   ├── [ 22M]  S7-Audio.aif
 │   └── [ 21M]  S8-Audio.aif
-├── [  68]  src - Python and Max/MSP source for SoNSTAR
-│   ├── SoNSTAR_Source_Code.py
-│   └── SoNSTAR_Project_prime.maxpat
-└── [  69] raw_sounds - natural and various Audio files for Max/MSP.
+├── [ 306]  raw_sounds - sound files used by the SoNSTAR Max/MSP patcher
+│   ├── [ 272]  Birds
+│   │   ├── [6.7M]  naturesounds-Forest\ Birds.wav
+│   │   ├── [6.7M]  naturesounds-Loon.wav
+│   │   ├── [6.7M]  naturesounds-Owls.wav
+│   │   ├── [6.7M]  naturesounds-Seagulls.wav
+│   │   ├── [6.7M]  naturesounds-Whip-Poor-Will.wav
+│   │   └── [6.7M]  naturesounds-Woodpeckers.wav
+│   ├── [ 272]  Forest-Birds
+│   │   ├── [188K]  naturesounds-Forest\ Birds1\ (mp3cut.net).mp3
+│   │   ├── [ 81K]  naturesounds-Forest\ Birds2\ (mp3cut.net).mp3
+│   │   ├── [184K]  naturesounds-Forest\ Birds3\ (mp3cut.net).mp3
+│   │   ├── [145K]  naturesounds-Forest\ Birds4\ (mp3cut.net)(1).mp3
+│   │   ├── [104K]  naturesounds-Forest\ Birds6\ (mp3cut.net)(1).mp3
+│   │   └── [104K]  naturesounds-Forest\ Birds7\ Ambience\ (mp3cut.net).mp3
+│   ├── [ 238]  Mammals
+│   │   ├── [1.3M]  naturesounds-Dogs.wav
+│   │   ├── [6.7M]  naturesounds-Horse\ Snort.wav
+│   │   ├── [6.7M]  naturesounds-Lemur.wav
+│   │   ├── [6.7M]  naturesounds-Sheep.wav
+│   │   └── [ 30M]  naturesounds-Walves.wav
+│   ├── [ 816]  Nature
+│   │   ├── [823K]  Blastwave_FX_EarthquakeWithDebris_HV.213.mp3
+│   │   ├── [ 16M]  Windgrass.wav
+│   │   ├── [397K]  distant_thunder_rumble_effect.mp3
+│   │   ├── [972K]  forest_fire_with_debris_falling.mp3
+│   │   ├── [6.7M]  naturesounds-Beach.wav
+│   │   ├── [6.7M]  naturesounds-Creek.wav
+│   │   ├── [6.7M]  naturesounds-Fire.wav
+│   │   ├── [6.7M]  naturesounds-Forest\ Ambience.wav
+│   │   ├── [6.7M]  naturesounds-Fountain.wav
+│   │   ├── [6.7M]  naturesounds-Rain\ Heavy.wav
+│   │   ├── [6.7M]  naturesounds-Rain\ on\ Roof.wav
+│   │   ├── [6.7M]  naturesounds-Rain.wav
+│   │   ├── [7.2M]  naturesounds-Rain1.aiff
+│   │   ├── [6.7M]  naturesounds-Snowstorm.wav
+│   │   ├── [6.7M]  naturesounds-Thunder.wav
+│   │   ├── [8.2M]  naturesounds-Wind1.aiff
+│   │   ├── [1.1M]  rainforest_sounds.mp3
+│   │   ├── [2.0M]  stream_in_forest.mp3
+│   │   ├── [1.5M]  waterfall_in_forest_001.mp3
+│   │   ├── [1.1M]  zapsplat_nature_rain_car_interior_roof_10157.mp3
+│   │   ├── [2.2M]  zapsplat_nature_rain_med_heavy.mp3
+│   │   └── [405K]  zapsplat_nature_thunder_005.mp3
+│   ├── [ 306]  Other-animals
+│   │   ├── [6.7M]  naturesounds-Bee\ Colony.wav
+│   │   ├── [ 30M]  naturesounds-Bee.wav
+│   │   ├── [6.7M]  naturesounds-Cicadas.wav
+│   │   ├── [6.7M]  naturesounds-Crickets.wav
+│   │   ├── [6.7M]  naturesounds-Frogs.wav
+│   │   ├── [6.7M]  naturesounds-Grasshopper.wav
+│   │   └── [6.7M]  naturesounds-Spring\ Peeper.wav
+│   ├── [ 649]  README.md
+│   └── [ 170]  Various
+│       ├── [ 30M]  Bells.wav
+│       ├── [6.7M]  naturesounds-Children\ Giggles.wav
+│       └── [6.7M]  naturesounds-Walk\ in\ Snow.wav
+└── [ 170]  src - Python and Max/MSP source for SoNSTAR
+    ├── [ 561]  README.md
+    ├── [306K]  SoNSTAR1_Source_Code.py
+    └── [286K]  SoNSTAR_Project_prime.maxpat
 ```
 
 | Audio File | Description |
@@ -81,14 +139,30 @@ computer screen.
 	1. Next, the `pcapy` (Python pcap extension) library must be installed. `pcapy` enables software Python scripts to access the routines from the pcap packet capture library. `pcapy` and can be installed from  [https://pypi.python.org/pypi/pcapy/0.11.1/](https://pypi.python.org/pypi/pcapy/0.11.1/). 
 2. SoNSTAR is then run from the command line, or you can use any available application to run Python files such as PyCharm which can be obtained from [Community PyCharm](https://www.jetbrains.com/pycharm/download/).
 
-3. The SoNSTAR Max/MSP Patcher can be found in the folder [`src/SoNSTAR_Project_prime.maxpat`](src/SoNSTAR_Project_prime.maxpat). Running the patcher requires Max/MSP 7 to be installed. You can use the unregistered version for free (though if you want to edit the patcher you will need a Max/MSP). See [Max 7.3.4](https://cycling74.com/downloads).
+3. The SoNSTAR Max/MSP Patcher can be found in the folder [`src/SoNSTAR_Project_prime.maxpat`](src/SoNSTAR_Project_prime.maxpat). 
+Running the patcher requires Max/MSP 7 to be installed. You can use the unregistered 
+version for free (though if you want to edit the patcher you will need a Max/MSP). 
+See [Max 7.3.4](https://cycling74.com/downloads).
 
 
 ## Running SoNSTAR
 
-1. Start first by runing the Max/MSP patcher and upload all the raw sounds that SoNSTAR uses to the patcher into the buffers named for each a speceific sound and turn the speakers on/plug in your headphones. Raw-sounds can be found in the folder `raw-sounds`. Note: there are more sounds in the raw-sounds folder than the once would be used. The extra sounds or any new sounds can be used by the users to change the sound design as they wish.
+1. Start first by runing the Max/MSP patcher and upload all the raw sounds that SoNSTAR 
+uses to the patcher into the buffers named for each specific sound and turn the speakers 
+on/plug in your headphones. Raw-sounds can be found in the folder [`raw_sounds`](raw_sounds/). 
+Note: there are more sounds in the `raw-sounds`` folder than are needed. The extra sounds 
+or any new sounds can be used by the users to change the sound design as they wish.
 
-2. Run SoNSTAR python file and first will receive a message on the screen ask you "Enter MAX patcher host IP" in order to send trigger messages to the MAX patcher. After you type the host IP and press enter a new message will appear and ask you to "Enter the first 6 digits of your network IPs". After you type the 6 digits from the left side of the IP address of the local network, you have to press enter key again; a new message will appear to ask you "Enter the time window period". You have to type a time window in seconds (For example, 10 or 20 or 30). Then the system will provide a list of the available devices that you could sniff from. You need to choose the one which you intend to sniff from and type its name and press enter key again. Then the system will start sniffing and sounds would start generating.
+2. Run the SoNSTAR python file which will then post a message on screen screen asking you 
+to "Enter MAX patcher host IP" in order to send trigger messages to the MAX patcher. 
+After you type the host IP and press <ENTER> a new message will appear asking you to 
+"Enter the first 6 digits of your network IPs". After you type the 6 digits from the left 
+side of the IP address of the local network, you have to press the <ENTER> key again; 
+a new message will appear asking you to "Enter the time window period". Enter a time window
+ in seconds (e.g., 10 or 20 or 30). Then the system will provide a list of the available 
+ devices that you could sniff from. Choose the one whose traffic you would like to 
+ monitor press <ENTER>. Then the system will start sniffing and the Max/MSP patcher
+ will begin generating the sonification soundscape.
 
 ## Authors  
 * [**Mohamed Debashi**](https://)
