@@ -94,7 +94,7 @@ See [Max 7.3.4](https://cycling74.com/downloads).
 1. Start first by runing the Max/MSP patcher and upload all the raw sounds that SoNSTAR 
 uses to the patcher into the buffers named for each specific sound and turn the speakers 
 on/plug in your headphones. Raw-sounds can be downloaded free from [`Freesound.org`](https://freesound.org/).
-Note: there are more sounds in the `Freesound.org`` website than are needed. The extra sounds
+Note: there are more sounds in the ``Freesound.org`` website than are needed. The extra sounds
 or any new sounds can be used by the users to change the sound design as they wish.
 
 2. Run the SoNSTAR python file which will then post a message on screen screen asking you 
