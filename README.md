@@ -52,68 +52,12 @@ computer screen.
 │   ├── [ 14M]  S6-Audio.aif
 │   ├── [ 22M]  S7-Audio.aif
 │   └── [ 21M]  S8-Audio.aif
-├── [ 306]  raw_sounds - sound files used by the SoNSTAR Max/MSP patcher
-│   ├── [ 272]  Birds
-│   │   ├── [6.7M]  naturesounds-Forest\ Birds.wav
-│   │   ├── [6.7M]  naturesounds-Loon.wav
-│   │   ├── [6.7M]  naturesounds-Owls.wav
-│   │   ├── [6.7M]  naturesounds-Seagulls.wav
-│   │   ├── [6.7M]  naturesounds-Whip-Poor-Will.wav
-│   │   └── [6.7M]  naturesounds-Woodpeckers.wav
-│   ├── [ 272]  Forest-Birds
-│   │   ├── [188K]  naturesounds-Forest\ Birds1\ (mp3cut.net).mp3
-│   │   ├── [ 81K]  naturesounds-Forest\ Birds2\ (mp3cut.net).mp3
-│   │   ├── [184K]  naturesounds-Forest\ Birds3\ (mp3cut.net).mp3
-│   │   ├── [145K]  naturesounds-Forest\ Birds4\ (mp3cut.net)(1).mp3
-│   │   ├── [104K]  naturesounds-Forest\ Birds6\ (mp3cut.net)(1).mp3
-│   │   └── [104K]  naturesounds-Forest\ Birds7\ Ambience\ (mp3cut.net).mp3
-│   ├── [ 238]  Mammals
-│   │   ├── [1.3M]  naturesounds-Dogs.wav
-│   │   ├── [6.7M]  naturesounds-Horse\ Snort.wav
-│   │   ├── [6.7M]  naturesounds-Lemur.wav
-│   │   ├── [6.7M]  naturesounds-Sheep.wav
-│   │   └── [ 30M]  naturesounds-Walves.wav
-│   ├── [ 816]  Nature
-│   │   ├── [823K]  Blastwave_FX_EarthquakeWithDebris_HV.213.mp3
-│   │   ├── [ 16M]  Windgrass.wav
-│   │   ├── [397K]  distant_thunder_rumble_effect.mp3
-│   │   ├── [972K]  forest_fire_with_debris_falling.mp3
-│   │   ├── [6.7M]  naturesounds-Beach.wav
-│   │   ├── [6.7M]  naturesounds-Creek.wav
-│   │   ├── [6.7M]  naturesounds-Fire.wav
-│   │   ├── [6.7M]  naturesounds-Forest\ Ambience.wav
-│   │   ├── [6.7M]  naturesounds-Fountain.wav
-│   │   ├── [6.7M]  naturesounds-Rain\ Heavy.wav
-│   │   ├── [6.7M]  naturesounds-Rain\ on\ Roof.wav
-│   │   ├── [6.7M]  naturesounds-Rain.wav
-│   │   ├── [7.2M]  naturesounds-Rain1.aiff
-│   │   ├── [6.7M]  naturesounds-Snowstorm.wav
-│   │   ├── [6.7M]  naturesounds-Thunder.wav
-│   │   ├── [8.2M]  naturesounds-Wind1.aiff
-│   │   ├── [1.1M]  rainforest_sounds.mp3
-│   │   ├── [2.0M]  stream_in_forest.mp3
-│   │   ├── [1.5M]  waterfall_in_forest_001.mp3
-│   │   ├── [1.1M]  zapsplat_nature_rain_car_interior_roof_10157.mp3
-│   │   ├── [2.2M]  zapsplat_nature_rain_med_heavy.mp3
-│   │   └── [405K]  zapsplat_nature_thunder_005.mp3
-│   ├── [ 306]  Other-animals
-│   │   ├── [6.7M]  naturesounds-Bee\ Colony.wav
-│   │   ├── [ 30M]  naturesounds-Bee.wav
-│   │   ├── [6.7M]  naturesounds-Cicadas.wav
-│   │   ├── [6.7M]  naturesounds-Crickets.wav
-│   │   ├── [6.7M]  naturesounds-Frogs.wav
-│   │   ├── [6.7M]  naturesounds-Grasshopper.wav
-│   │   └── [6.7M]  naturesounds-Spring\ Peeper.wav
-│   ├── [ 649]  README.md
-│   └── [ 170]  Various
-│       ├── [ 30M]  Bells.wav
-│       ├── [6.7M]  naturesounds-Children\ Giggles.wav
-│       └── [6.7M]  naturesounds-Walk\ in\ Snow.wav
 └── [ 170]  src - Python and Max/MSP source for SoNSTAR
     ├── [ 561]  README.md
     ├── [306K]  SoNSTAR1_Source_Code.py
     └── [286K]  SoNSTAR_Project_prime.maxpat
 ```
+
 
 | Audio File | Description |
 | ------------- | --------------- |
@@ -149,8 +93,8 @@ See [Max 7.3.4](https://cycling74.com/downloads).
 
 1. Start first by runing the Max/MSP patcher and upload all the raw sounds that SoNSTAR 
 uses to the patcher into the buffers named for each specific sound and turn the speakers 
-on/plug in your headphones. Raw-sounds can be found in the folder [`raw_sounds`](raw_sounds/). 
-Note: there are more sounds in the `raw-sounds`` folder than are needed. The extra sounds 
+on/plug in your headphones. Raw-sounds can be downloaded free from [`Freesound.org`](https://freesound.org/).
+Note: there are more sounds in the `Freesound.org`` website than are needed. The extra sounds
 or any new sounds can be used by the users to change the sound design as they wish.
 
 2. Run the SoNSTAR python file which will then post a message on screen screen asking you 
